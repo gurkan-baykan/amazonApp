@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "185540752627",
+    "project_id": "app-fa351",
+    "storage_bucket": "app-fa351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185540752627:android:7315aca048451b4ff47386",
+        "android_client_info": {
+          "package_name": "com.amazonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185540752627-vthept7qbtbod1m6u522u93vpgg3upu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amazonapp",
+            "certificate_hash": "0b8584794d35beccf76e43127c8437f5904b7ab3"
+          }
+        },
+        {
+          "client_id": "185540752627-9q31t1f03gmj14ri4qgkq9dh9ejavv35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRqKODepsJrD2KpJquWYKl-NZ5DnfK8-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185540752627-9q31t1f03gmj14ri4qgkq9dh9ejavv35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
