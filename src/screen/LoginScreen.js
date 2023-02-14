@@ -7,11 +7,10 @@ import {signInAuth} from '../redux/thunkAction';
 export default function LoginScreen({route, navigation}) {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
-  const dispatch = useDispatch();
   const [passwordVisible, setPasswordVisible] = useState(true);
-
   const {loading} = useSelector(state => state.cart);
 
+  const dispatch = useDispatch();
   return (
     <View
       style={{

@@ -10,6 +10,7 @@ const HomeScreen = navigation => {
     <SafeAreaView>
       <View style={viewStyle}>
         <AppBar title={'Home Screnn'} navigation={navigation.navigation} />
+
         <FlatList
           data={products}
           style={{marginTop: 10}}

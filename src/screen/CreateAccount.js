@@ -18,14 +18,18 @@ export default function CreateAccount() {
         onChangeText={text => setUserName(text)}
         mode="outlined"
       />
+
       <View style={{margin: 5}} />
+
       <TextInput
         label="Password"
         value={password}
         mode="outlined"
         onChangeText={text => setPassword(text)}
       />
+
       <View style={{margin: 5}} />
+
       <Button
         mode="contained"
         onPress={() => {
@@ -38,7 +42,7 @@ export default function CreateAccount() {
         }}>
         Be Register
       </Button>
-      <SnackBar title={'Kayıt işlemi başarılı bir şekildeyapılmıştır'} />
+      <SnackBar title={'Kayıt işlemi başarılı bir şekilde yapılmıştır'} />
     </View>
   );
 }

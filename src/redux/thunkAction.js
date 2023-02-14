@@ -10,7 +10,6 @@ export function signInAuth({userName, password, navigation}) {
       .then(() => {
         dispatch(typeAction({type: 'loading', payload: false}));
         navigation.navigate('HomeTabs');
-        //dispatch(typeAction({type: 'login'}));
       })
       .catch(e => {
         console.log(e);
@@ -20,8 +19,6 @@ export function signInAuth({userName, password, navigation}) {
 
 export function createAccount({userName, password, navigation}) {
   return async (dispatch, getState) => {
-    //getState().cart.loading = true;
-
     return await auth()
       .createUserWithEmailAndPassword(userName, password)
       .then(() => {

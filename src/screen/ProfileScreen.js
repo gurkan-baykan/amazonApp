@@ -38,6 +38,7 @@ export default function ProfileScreen() {
             color="#fff"
           />
         </View>
+
         <View
           style={{
             marginTop: 10,
@@ -65,6 +66,7 @@ export default function ProfileScreen() {
             </Card>
           </TouchableOpacity>
         </View>
+
         <View
           style={{
             marginTop: 10,
@@ -87,6 +89,7 @@ export default function ProfileScreen() {
         <View style={{marginBottom: 5, marginTop: 10}}>
           <Text style={styles.nameText}> Siparişlerim </Text>
         </View>
+
         <View
           style={{
             borderBottomColor: '#e3dfde',
@@ -94,6 +97,7 @@ export default function ProfileScreen() {
             marginBottom: 10,
           }}
         />
+
         <View>
           <FlatList
             data={cart.cartProduct}
@@ -108,9 +112,11 @@ export default function ProfileScreen() {
             horizontal={true}
           />
         </View>
+
         <View style={{marginBottom: 5, marginTop: 10}}>
           <Text style={styles.nameText}> Listelerim </Text>
         </View>
+
         <View
           style={{
             borderBottomColor: '#e3dfde',
@@ -123,9 +129,11 @@ export default function ProfileScreen() {
             <Text style={styles.nameText}>Bir Liste Oluştur</Text>
           </View>
         </TouchableOpacity>
+
         <View style={{marginBottom: 5, marginTop: 10}}>
           <Text style={styles.nameText}> Hesabım </Text>
         </View>
+
         <View
           style={{
             borderBottomColor: '#e3dfde',
@@ -133,6 +141,7 @@ export default function ProfileScreen() {
             marginBottom: 10,
           }}
         />
+
         <View style={{flexDirection: 'row', margin: 5}}>
           <FlatList
             data={accountHeaders}

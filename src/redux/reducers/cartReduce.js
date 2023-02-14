@@ -1,5 +1,5 @@
 import auth from '@react-native-firebase/auth';
-import {useNavigation} from '@react-navigation/native';
+
 const INITIAL_STATE = {
   cartProduct: [],
   postStatus: null,
